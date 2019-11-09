@@ -1,4 +1,4 @@
 # passenger
 Blog Template
 
-## Projects nNotes
+## Projects Notes
