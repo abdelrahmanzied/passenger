@@ -1,0 +1,41 @@
+.h-slider {
+  width: 4500px;
+  display: flex;
+
+  .slide {
+    max-width: 1125px;
+    padding: 0 30px;
+    opacity: .5;
+    @media (max-width: 991.98px) {
+      opacity: 1;
+    }
+  }
+  
+  .active-slide {
+    padding: 0;
+    opacity: 1;
+  }
+
+}
+
+.slider-buttons {
+  position: absolute;
+  top: 0;
+  right: 0;
+  i {
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .right-button {
+    margin-left: 50px;
+  }
+
+  .disabled-button {
+    opacity: .2;
+    cursor: auto;
+  }
+
+  @media (max-width: 991.98px) { 
+    display: none;
+  }
+}

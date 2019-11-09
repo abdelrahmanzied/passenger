@@ -1,0 +1,45 @@
+.header {
+  .top-bar {
+    padding: 15px 25px;
+    background-color: #fff;
+    border-bottom: 1px solid #f7f7f7;
+  
+    i {
+      font-size: 16px;
+      cursor: pointer;
+      padding-top: 18px;
+    }
+  
+    .logo {
+      text-align: center;
+  
+      a {
+        font-size: 18px;
+        color: #000;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+      }
+    }
+  }
+
+  .nav {
+    padding: 25px;
+    text-align: center;
+  
+    a {
+      font-size: 12px;
+      color: #000;
+      text-transform: uppercase;
+    }
+  
+    li:hover {
+      a {
+        text-decoration: underline;
+      }
+    }  
+  }
+
+}
+
+

@@ -1,0 +1,10 @@
+.last-posts {
+  width: 100%;
+  overflow: hidden;
+  padding: 70px 0;
+  @media (max-width: 991.98px) { overflow: auto; }
+  .container {
+    position: relative;
+  }
+  
+}

@@ -1,0 +1,45 @@
+.nav-list {
+  width: 100%;
+  display: none;
+  background-color: #fff;
+  padding-top: 15px;
+  position: fixed;
+  z-index: 1000;
+  line-height: 3;
+
+  .nav-title {
+    font-size: 14px;
+    color: #333;
+    line-height: 3.5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  li {
+    width: 100%;
+    cursor: pointer;
+    a {
+      font-size: 14px;
+      color: #7f8c8d;
+      font-family: 'Raleway', sans-serif;
+    }
+    &:hover a {
+      color: #000;
+    }  
+  }
+
+
+
+}
+
+.footer-fixed {
+  position: fixed;
+  bottom: 0;
+}
+
+.header-fixed {
+  background-color: #fff;
+  & {
+    border: none;
+  }
+}

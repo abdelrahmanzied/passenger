@@ -1,0 +1,17 @@
+// import variables
+@import 'sass/variables/colors';
+
+// import layout
+@import 'sass/layout/global';
+@import 'sass/layout/header';
+@import 'sass/layout/intro';
+@import 'sass/layout/footer';
+
+//import components
+@import 'sass/components/nav-list';
+@import 'sass/components/last-posts';
+@import 'sass/components/h-slider';
+@import 'sass/components/post';
+@import 'sass/components/writers';
+@import 'sass/components/writer';
+@import 'sass/components/follow';

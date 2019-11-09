@@ -1,0 +1,28 @@
+.post {
+  .post-img {
+    max-width: 355px;
+    max-height: 240px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      transition: all .2s ease-in-out;
+
+      &:hover {
+        transform: scale(1.2) !important;
+      }
+    }
+  }
+
+  .post-category {
+    padding: 15px 0;
+  }
+
+  .post-title {
+
+    h2 {
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+
+}
